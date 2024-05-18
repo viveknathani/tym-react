@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-background-color: antiquewhite;
+  --primary-font-color: black;
+  --secondary-background-color: #8F9779; 
+}
+
+body {
+  background-color: var(--primary-background-color);
+  color: var(--primary-font-color);
+}
+
