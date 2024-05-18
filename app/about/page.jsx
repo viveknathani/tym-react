@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function About() {
   return (
-      <div className='text-sm' style={{ margin: 'auto', maxWidth:'65%', marginTop: '2%' }}>
+      <div className='text-sm pb-16' style={{ margin: 'auto', maxWidth:'65%', marginTop: '2%', paddingBottom: '9rem' }}>
         <p>
           Good math problems are hidden inside textbooks and online documents. To keep up with all the sources in the world is hard. For someone who just wants to continuously solve problems, finding and going through all the sources feels like a hassle. I wished for a website that could just dump all the math problems available in the world out there. And if I could filter the problems by topics, that would be beautiful.
         </p>
